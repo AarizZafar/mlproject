@@ -18,6 +18,7 @@ if __name__ == "__main__":
     logging.info("Logging has started")     # WE HAVE NOT SPECIFIED A LOGGER LIKE BELOW 
                                             # HENCE WE END UP USIG THE ROOT LOGGER IT RETURNS ROOT
 
-    # OR ------------------------------------------
-    # log1 = logging.getLogger("logger obj")
-    # log1.info("this is a message ")
+
+    # ------------------------------ OR ------------------------------------------
+logger1 = logging.getLogger("ML proj Logger")
+logger1.info("test run")
