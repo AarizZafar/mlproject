@@ -1,5 +1,5 @@
 import sys
-from logger import logger1
+from src.logger import logging
 
 def error_message_detail(error,error_details:sys):
     _,_,exc_tb = error_details.exc_info()               # .exc_info PROVIDES INFORMATION ABOUT THE EXCEPTION
@@ -31,5 +31,6 @@ class CustomException(Exception):
 # try: 
 #     a = 1/0
 # except Exception as ex:
-#     logger1.info("zero divisin exception ")
+#     logging.info("zero divisin exception ..........")
 #     raise CustomException(ex,sys)
+
